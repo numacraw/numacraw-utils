@@ -1,4 +1,5 @@
-export function unique(array) {
+//数组查重
+export const  unique = (array) =>{
     let res =[];
     array.forEach(element => {
         if(res.indexOf(element)===-1){

@@ -1,3 +1,4 @@
+//深克隆
 export const  deepCopy = (obj) =>{
     if(typeof obj !== 'object') return;
     let newObj = obj instanceof Array ? []  : {};
